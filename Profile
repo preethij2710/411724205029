@@ -1,0 +1,26 @@
+class Student{
+    string name;
+    int age;
+    int roll number;
+    String Gender;
+    string college;  
+    public void showDetails(){
+        System.out.println("Name : " +name);
+        System.out.println("Age : " +age);
+        System.out.println("Roll number : " +roll number);
+        System.out.println("Gender : " +gender);
+        System.out.println("College : " +college);  
+}
+public class Profile{
+    public Static void main(String[]args){
+        Student s1 = new Student();
+        s1.name ="priya";
+        s1.age=18;
+        s1.roll number=227143;
+        s1.gender="female";
+        s1.college="psvpec";
+
+        s1.showDetails();
+
+    }
+
